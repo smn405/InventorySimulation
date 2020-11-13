@@ -6,19 +6,19 @@ In this Python script it is possible to manually set the values for order quanti
 
 Demand is variable and is shown in the following table:
 
-Demand	Probability
-0	          .10
-1	          .25
-2	          .35
-3	          .21
-4	          .09
+	Demand	Probability
+	0	          .10
+	1	          .25
+	2	          .35
+	3	          .21
+	4	          .09
 
 Lead time (the number of full days between the placement of the order and the receipt of the order) is variable and is shown in the following table:
 
-Lead Time 	Probability
-1	day           60%
-2	days          30%
-3	days          10%
+	Lead Time 	Probability
+	1 day           60%
+	2 days          30%
+	3 days          10%
 
 Each replication will be run for 25 days. 
 Shortages must be made up as soon as a new order comes in.
